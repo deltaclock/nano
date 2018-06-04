@@ -69,5 +69,5 @@ The handler needs some redesigning which is not that important right now.
 ![handler](https://i.imgur.com/hkAHGwH.png)
 
 #### Everything Else
-This is my first php thingy so if there's way to do what I did in a better way please let me know or open a pull request.\
-The nano project is licensed under **MIT license** which basically means you have to give me credit if you want to redistribute or modify it.
+The nano project is licensed under **MIT license**.
+Original Creator : https://github.com/UltimateHackers/nano
